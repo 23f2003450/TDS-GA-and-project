@@ -1,0 +1,71 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env/
+.env
+.venv/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===============================
+# FastAPI / Uvicorn
+# ===============================
+*.log
+
+# ===============================
+# FAISS Index (optional)
+# ===============================
+faiss.index
+
+# ===============================
+# HuggingFace Cache
+# ===============================
+.cache/
+**/.cache/
+~/.cache/
+
+# ===============================
+# Ollama (do not track models)
+# ===============================
+ollama/
+
+# ===============================
+# VS Code
+# ===============================
+.vscode/
+.history/
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Environment Variables
+# ===============================
+.env
+
+# ===============================
+# Python Packaging
+# ===============================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===============================
+# Jupyter (if ever used)
+# ===============================
+.ipynb_checkpoints/
